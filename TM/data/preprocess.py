@@ -44,7 +44,7 @@ class MacaData():
         adata = adata[:,adata.var.highly_variable]
         sc.pp.log1p(adata)
         sc.pp.scale(adata, max_value=10, zero_center=True)
-        adata[np.isnan(adata.X)] = 0
+        adata.X[np.isnan(adata.X)] = 0
         #sc.tl.pca(self.adata)
         
         return adata  
