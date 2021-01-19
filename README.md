@@ -1,10 +1,10 @@
-## Concept Learners for Generalizable Few-Shot Learning
+## Concept Learners for Few-Shot Learning
 Kaidi Cao*, Maria Brbić*, Jure Leskovec
 
 [Project website](http://snap.stanford.edu/comet)
 _________________
 
-This repo contains the reference source code in PyTorch of the COMET algorithm. COMET is a meta-learning method that learns generalizable representations along human-understandable concept dimensions. For more details please check our paper [Concept Learners for Generalizable Few-Shot Learning](https://arxiv.org/pdf/2007.07375.pdf). 
+This repo contains the reference source code in PyTorch of the COMET algorithm. COMET is a meta-learning method that learns generalizable representations along human-understandable concept dimensions. For more details please check our paper [Concept Learners for Few-Shot Learning](https://arxiv.org/pdf/2007.07375.pdf). 
 
 <p align="center">
 <img src="https://github.com/snap-stanford/comet/blob/master/img/COMET_model.png" width="1100" align="center">
@@ -60,11 +60,11 @@ If you find our research useful, please consider citing:
 
 ```
 @inproceedings{
-    cao2020concept,
-    title={Concept Learners for Generalizable Few-ShotLearning},
+    cao2021concept,
+    title={Concept Learners for Few-Shot Learning},
     author={Cao, Kaidi and Brbi\'c, Maria and Leskovec, Jure},
-    journal={arXiv},
-    year={2020},
+    booktitle={International Conference on Learning Representations (ICLR)},
+    year={2021},
 }
 ```
 
