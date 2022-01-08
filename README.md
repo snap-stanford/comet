@@ -56,7 +56,7 @@ Running this code requires [anndata](https://icb-anndata.readthedocs-hosted.com/
 
 ### Citing
 
-If you find our research useful, please consider citing:
+If you find our code useful, please consider citing:
 
 ```
 @inproceedings{
