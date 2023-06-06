@@ -5,7 +5,7 @@ Created on Jul 26, 2019
 '''
 
 from anndata import read_h5ad
-import scanpy.api as sc
+import scanpy as sc
 import pandas as pd
 from collections import Counter
 import numpy as np
